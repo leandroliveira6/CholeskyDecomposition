@@ -49,8 +49,6 @@ def C_testex(A, x, b):
     resultado = A.dot(x)
     print("A*x {} = b {} ? {}".format(resultado.round(2), b, resultado.round(2)==b.round(2)))
 
-
-
 A = np.array([[1.0,1.0,1.0,1.0],\
               [1.0,4.0,4.0,4.0],\
               [1.0,4.0,9.0,9.0],\
